@@ -7,7 +7,13 @@ implement the remainder of the API.
 
 ## Installation
 
-    pip install bitfinex
+Install the libs
+
+    pip install -r ./requirements.txt
+
+Install itself
+
+    python setup.py install
 
 
 ## Poll The Order Book
@@ -17,12 +23,6 @@ Run the ```bitfinex-poll-orderbook``` script in a terminal.
 Press ```Ctrl-c``` to exit.
 
     bitfinex-poll-orderbook
-
-## Setup
-
-Install the libs
-
-    pip install -r ./requirements.txt
 
 
 ## Tests
